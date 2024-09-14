@@ -91,7 +91,7 @@ const Sidebar = (props: Props) => {
               onClick={() => handleItemClick(item.name)}
             >
               {item.svg}
-              <p className={`font-medium text-[18px] ${activeItem === item.name ? "font-bold" : ""}`}>
+              <p className={`text-[18px] ${activeItem === item.name ? "font-bold" : ""}`}>
                 {item.name}
               </p>
             </div>

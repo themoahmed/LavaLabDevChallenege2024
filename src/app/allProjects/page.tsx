@@ -25,7 +25,7 @@ const AllProjects = (props: Props) => {
     <div className="flex flex-col px-10 gap-[28px] mt-10">
         <div className="flex flex-row justify-between items-center">
             <p className="text-[24px] font-bold">All Projects</p>
-            <div className="flex flex-row gap-[12px] justify-center items-center">
+            <div className="flex flex-row gap-[6px] justify-center items-center">
                 <div 
                   onClick={() => handleActiveView("square")} 
                   className={`w-[34px] h-[34px] flex justify-center items-center rounded ${activeView === "square" ? "bg-[#EBEBEB]" : ""}`}

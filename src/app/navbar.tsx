@@ -1,12 +1,15 @@
+import { CircleUser } from "lucide-react";
 import React from "react";
 
 type Props = {};
+
+const profilePic = <CircleUser></CircleUser>
 
 const Navbar = (props: Props) => {
   return (
     <div className="w-full h-[115px] bg-white flex items-center justify-center px-10 border-b-2 border-[#CBCBD5] border-opacity-50">
       <div className="flex flex-row items-center justify-between h-[67px] py-[20px] gap-[20px] w-[100%]">
-        <div className="w-[70%] border-2 border-[#CBCBD5] border-opacity-75 h-[67px] flex items-center justify-start gap-[10px] rounded-[5px] pl-[30px] max-w-[760px]">
+        <div className="w-[70%] border-2 border-[#CBCBD5] border-opacity-75 h-[67px] flex items-center justify-start gap-[10px] rounded-[5px] pl-[30px] ">
           <div>
             <svg
               width="18"
