@@ -16,7 +16,7 @@ const AllProjects = (props: Props) => {
     {name: "Assignment 1", time: "44m ago"},
     {name: "Lab 3", time: "40m ago"},
     {name: "Workbook Ch. 3", time:"2 hrs ago"},
-    {name: "worksheet 2", time: "Apr 25, 2024"},
+    {name: "Worksheet 2", time: "Apr 25, 2024"},
     {name: "Resume", time: "March 27, 2023"},
     {name: "Assignment 3", time: "Feb 20, 2023"},
   ]
@@ -47,12 +47,12 @@ const AllProjects = (props: Props) => {
                 </div>
             </div>
         </div>
-        <div className="flex flex-wrap gap-[24px]">
+        <div className="flex flex-wrap gap-[25px]">
             {activeView === "square" ? (
                 projects.map((project, index) => (
                     <div 
                       key={index} 
-                      className="w-[323px] h-[297px] p-[24px] rounded-[8px] border-t-[2px] border-[2px] flex flex-col justify-between items-center border-[#CACACA] transition-transform transform hover:scale-105"
+                      className="w-[323px] h-[297px] p-[24px] rounded-[8px] border-t-[2px] border-[2px] flex flex-col justify-between items-center border-[#CACACA] transition-transform transform hover:scale-105 cursor-pointer"
                     >
                         <div className="w-[275px] h-[175px] rounded-[8px] bg-[#D9D9D9] flex justify-center items-center">
                             <img src="/file.svg" alt="file" className="w-[85px] h-[85px]" />
