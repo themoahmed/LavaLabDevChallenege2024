@@ -149,4 +149,4 @@ Thank you for the opportunity to participate in the LavaLab Developer Challenge.
 
 --- 
 
-DISCLAIMER: THIS README IS WRITTEN BY AI.
+DISCLAIMER: WRITTEN BY AI.
