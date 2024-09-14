@@ -2,14 +2,6 @@
 
 This is my attempt at the LavaLab Developer Challenge. The challenge provides a glimpse into how I work and think as a developer, and it also gives me a better idea of the type of development work typically done as a LavaLab developer.
 
-I understand that perfection is not the goal here. Instead, I aimed to resemble the design as closely as possible, providing an accurate representation of my approach, coding style, and how I break problems down into smaller components. I spent as much time as needed to complete this development challenge.
-
-## Deliverable
-
-My task was to develop the following platform, focusing on clean and efficient code. I chose to implement the platform on the web, following the designs presented in the Figma link provided.
-
-For more design context, here is the Figma link I used for development: [Figma link](#)
-
 ## Tech Stack
 
 I chose to implement the platform on the web using the following technologies:
@@ -131,7 +123,7 @@ I implemented a list view and hover animations to enhance the user experience. T
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/themoahmed/LavaLabDevChallenege2024.git 
    ```
 
 2. Install dependencies:
@@ -149,8 +141,12 @@ I implemented a list view and hover animations to enhance the user experience. T
 
 ## Contact
 
-If you have any questions, feel free to reach out to me at usclavalab@gmail.com.
+If you have any questions, feel free to reach out to me at ahmedma@usc.edu.
 
 ---
 
 Thank you for the opportunity to participate in the LavaLab Developer Challenge. I look forward to your feedback!
+
+--- 
+
+DISCLAIMER: THIS README IS WRITTEN BY AI.
